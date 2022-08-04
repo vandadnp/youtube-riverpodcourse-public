@@ -1,0 +1,1 @@
+typedef CommentId = String;

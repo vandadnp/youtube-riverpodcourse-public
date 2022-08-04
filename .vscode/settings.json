@@ -1,0 +1,10 @@
+{
+    // "editor.fontSize": 30,
+    // "terminal.integrated.fontSize": 30,
+    "editor.lineNumbers": "on",
+    "window.zoomLevel": 5,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true,
+    },
+}

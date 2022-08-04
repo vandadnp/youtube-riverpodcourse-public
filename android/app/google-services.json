@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "61738471270",
+    "project_id": "instagram-clone-vandad",
+    "storage_bucket": "instagram-clone-vandad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61738471270:android:04b4f46da69edbabe142a7",
+        "android_client_info": {
+          "package_name": "se.pixolity.testingriverpod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61738471270-k10ne2cs27h9g8je20p0qrhruoee9r0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.pixolity.testingriverpod",
+            "certificate_hash": "66c893a9badb4de3d6de3344619378a9bbf3d35f"
+          }
+        },
+        {
+          "client_id": "61738471270-3jfkm2ietgd79mlpphuof673o49grafi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMVP4KUg4Rv-ouNn2SbvWBGsWxv9LApL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61738471270-3jfkm2ietgd79mlpphuof673o49grafi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "61738471270-hps5dmiofbo6df64emn56a3otkrvagne.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.pixolity.testingriverpod"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
