@@ -3,6 +3,7 @@ import 'dart:io' show File;
 import 'package:flutter/foundation.dart' show immutable;
 import 'package:testingriverpod/state/image_upload/models/file_type.dart';
 
+/// Thumbnail로서 file 파일(파일경로 (url, path, etc))과 filetype(이미지인지 비디오인지)
 @immutable
 class ThumbnailRequest {
   final File file;
