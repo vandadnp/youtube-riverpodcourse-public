@@ -12,6 +12,9 @@ class PostSettingNotifier extends StateNotifier<Map<PostSetting, bool>> {
             },
           ),
         );
+
+  ///ref.read(postSettingProvider.notifier).setSetting(postSetting, isOn)
+  ///ref.refresh(postSettingProivder) setting : true로 초기화
   void setSetting(
     PostSetting setting,
     bool value,

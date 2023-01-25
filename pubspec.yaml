@@ -36,22 +36,22 @@ dependencies:
   cupertino_icons: ^1.0.2
   hooks_riverpod: ^2.0.2
   uuid: ^3.0.6
-  firebase_core: ^1.20.1
-  cloud_firestore: ^3.4.4
-  firebase_storage: ^10.3.5
-  firebase_auth: ^3.6.3
+  firebase_core: ^2.4.1
+  cloud_firestore:
+  firebase_storage: ^11.0.10
+  firebase_auth: ^4.2.2
   font_awesome_flutter: ^10.1.0
-  flutter_facebook_auth: ^4.4.1
+  flutter_facebook_auth: ^5.0.7
   google_sign_in: ^5.4.1
   image_picker: ^0.8.5+3
-  image: ^3.2.0
+  image: ^4.0.12
   flutter_hooks: ^0.18.5+1
   collection: ^1.16.0
-  intl: ^0.17.0
+  intl: ^0.18.0
   video_thumbnail: ^0.5.2
   video_player: ^2.4.7
-  lottie: ^1.4.2
-  share_plus: ^4.1.0
+  lottie: ^2.2.0
+  share_plus: ^6.3.0
   url_launcher: ^6.1.5
   riverpod_annotation: ^1.0.4
 

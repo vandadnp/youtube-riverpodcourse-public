@@ -20,3 +20,10 @@ bool isLoading(IsLoadingRef ref) {
       isDeletingComment ||
       isDeletingPost;
 }
+
+
+
+// final isLoadingProvider = Provider<bool>((ref) {
+//   final authState = ref.watch(authStateProvider);
+//   return authState.isLoading;
+// });

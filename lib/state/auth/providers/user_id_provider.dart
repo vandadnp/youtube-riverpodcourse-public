@@ -8,3 +8,5 @@ part 'user_id_provider.g.dart';
 UserId? userId(UserIdRef ref) {
   return ref.watch(authStateProvider).userId;
 }
+
+/// userIdProvider

@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart' show immutable, VoidCallback;
 import 'package:flutter/material.dart' show TextStyle, Colors, TextDecoration;
 import 'package:testingriverpod/views/components/rich_text/link_text.dart';
 
+/// singin에 필요한 글자 속성을 추가하기 위한 클래스 plain 및 facebook & google signin 하이퍼링크
 @immutable
 class BaseText {
   final String text;

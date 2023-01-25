@@ -48,7 +48,6 @@ class AuthState {
           isLoading == other.isLoading &&
           userId == other.userId);
 
-
   /// class operator 적용시 무조건 넣어야함.
   @override
   int get hashCode => Object.hash(
