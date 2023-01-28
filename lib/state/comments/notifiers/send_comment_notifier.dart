@@ -6,6 +6,7 @@ import 'package:testingriverpod/state/image_upload/typedefs/is_loading.dart';
 import 'package:testingriverpod/state/posts/typedefs/post_id.dart';
 import 'package:testingriverpod/state/posts/typedefs/user_id.dart';
 
+/// firebase에 comments 보내기
 class SendCommentNotifier extends StateNotifier<IsLoading> {
   SendCommentNotifier() : super(false);
 

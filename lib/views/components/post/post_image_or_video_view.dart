@@ -4,6 +4,7 @@ import 'package:testingriverpod/state/posts/models/post.dart';
 import 'package:testingriverpod/views/components/post/post_image_view.dart';
 import 'package:testingriverpod/views/components/post/post_video_view.dart';
 
+/// post.filetype을 통해 이미지인지 비디오인지 구별함.
 class PostImageOrVideoView extends StatelessWidget {
   final Post post;
   const PostImageOrVideoView({

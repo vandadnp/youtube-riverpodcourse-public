@@ -7,6 +7,14 @@ import 'package:testingriverpod/state/likes/models/like_dislike_request.dart';
 
 part 'like_dislike_post_provider.g.dart';
 
+///final likeDislikePostProvider =
+///FutureProivder.faimly.autoDispose<bool, LikeDislikeRequest>((
+///ref,
+///LikeDislikeRequest request,
+///) async {
+/// final query = FirebaseFirestore.instance.collection......}
+///))
+
 @riverpod
 Future<bool> likeDislikePost(
   LikeDislikePostRef ref, {

@@ -8,6 +8,7 @@ import 'package:testingriverpod/state/comments/models/post_comments_request.dart
 import 'package:testingriverpod/state/constants/firebase_collection_name.dart';
 import 'package:testingriverpod/state/constants/firebase_field_name.dart';
 
+///request 외부인자를 받아서 Comments를 Firebase에 생성
 final postCommentsProvider = StreamProvider.family
     .autoDispose<Iterable<Comment>, RequestForPostAndComments>((
   ref,

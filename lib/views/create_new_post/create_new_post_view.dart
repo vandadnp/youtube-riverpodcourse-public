@@ -36,7 +36,11 @@ class _CreateNewPostViewState extends ConsumerState<CreateNewPostView> {
     );
     final postSettings = ref.watch(postSettingProvider);
     final postController = useTextEditingController();
+
+    /// Hooks_riverpod, setState를 대신하여 useState를 사용. 초기값 false.
     final isPostButtonEnabled = useState(false);
+
+    /// 두번째 파라미터(postController)가 변경(생성, 소멸, 상태변경) 될 때 첫번째 파라미터 함수(void listener)가 실행됨
     useEffect(() {
       void listener() {
         isPostButtonEnabled.value = postController.text.isNotEmpty;
@@ -71,6 +75,8 @@ class _CreateNewPostViewState extends ConsumerState<CreateNewPostView> {
                               postSettings: postSettings,
                               userId: userId,
                             );
+
+                    ///mounted는 stateful widget이 생성되었는지 아닌지를 확인하는 방법, createState 이후에 mounted =true이며, dispose 이후에 false
                     if (isUploaded && mounted) {
                       Navigator.of(context).pop();
                     }
@@ -83,7 +89,11 @@ class _CreateNewPostViewState extends ConsumerState<CreateNewPostView> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            // thumbnail
+            /// FileThumbnailView의 return 값
+            ///     return thumbnail.when(data: (imageWithAspectRatio) {
+            /// return AspectRatio(
+            /// aspectRatio: imageWithAspectRatio.aspectRatio,
+            /// child: imageWithAspectRatio.image,);},
             FileThumbnailView(
               thumbnailRequest: thumbnailRequest,
             ),
