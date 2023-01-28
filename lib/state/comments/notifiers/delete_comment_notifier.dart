@@ -7,6 +7,7 @@ import 'package:testingriverpod/state/image_upload/typedefs/is_loading.dart';
 class DeleteCommentStateNotifier extends StateNotifier<IsLoading> {
   DeleteCommentStateNotifier() : super(false);
 
+  ///state는 <IsLoading>상태 값이다.
   set isLoading(bool value) => state = value;
 
   Future<bool> deleteComment({
